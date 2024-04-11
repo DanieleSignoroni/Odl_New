@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<customization>
+	<formcustomization customizePosition="START_TABBED"
+		customizeName="12">
+		<tab name="cust_tab1"
+			resourceFile="it.odl.thip.vendite.ordineVE.resources.YOrdineVenditaRigaPrm"
+			resourceID="tab1">
+			<table style="margin-top:1rem">
+				<tr>
+					<td valign="top">
+						<label classHdr="YOrdineVenditaRigaPrm" classAD="Dataprvspe"></label>
+					</td>
+					<td valign="top">
+						<textinput name="Dataprvspe" classAD="Dataprvspe"
+							showCalendarBtn="yes" />
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">
+						<label classHdr="YOrdineVenditaRigaPrm" classAD="Data2"></label>
+					</td>
+					<td valign="top">
+						<textinput name="Data2" classAD="Data2"
+							showCalendarBtn="yes" />
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">
+						<label classHdr="YOrdineVenditaRigaPrm"
+							classRD="RelContratto"></label>
+					</td>
+					<td valign="top">
+						<multisearchform name="RelContratto"
+							classRD="RelContratto" />
+					</td>
+				</tr>
+				<tr>
+					<td valing="top">
+						<checkbox classAD="Spedsosp" name="Spedsosp" />
+					</td>
+				</tr>
+				<tr>
+					<td valing="top">
+						<checkbox classAD="ExpContratto" name="ExpContratto" />
+					</td>
+				</tr>
+			</table>
+		</tab>
+	</formcustomization>
+</customization>

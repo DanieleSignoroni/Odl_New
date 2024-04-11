@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TDDML SYSTEM "../../../TDDML.dtd">
+<TDDML>
+  <AlterTable schema="THIPPERS" name="YCOND_CTR_VEN">
+    <AddColumn>
+      <Column name="PREZZO_CONTRATTO" shortname="PRZ_CNT" type="decimal" length="19" scale="6" nullable="yes"/>
+    </AddColumn>
+  </AlterTable>
+  <Comment>
+    <CommentTable schema="THIPPERS" name="YCOND_CTR_VEN" text="Condizioni contrattuali">
+      <CommentColumn name="PREZZO_CONTRATTO" text="Prezzo contratto"/>
+    </CommentTable>
+  </Comment>
+</TDDML>
