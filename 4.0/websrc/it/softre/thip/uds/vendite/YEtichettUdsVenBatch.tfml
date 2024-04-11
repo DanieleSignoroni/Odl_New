@@ -1,0 +1,25 @@
+<tfml>
+<generator type="batchForm"/>
+	<form name="YEtichettUdsVenForm"
+				classHdr="YEtichettUdsVen"
+				errorList="yes"
+				inputFont="Arial,10"
+				menubar="yes"
+				submitReset="none"
+				toolbar="yes"
+				header="it.thera.thip.cs.Header.jsp"
+				footer="it.thera.thip.cs.Footer.jsp"
+				webFormModifierClass="it.softre.thip.uds.vendite.web.YEtichetteUdsVenBatchFormModifier">
+
+		<menubar  name="myMenuBar">
+			<import file="it/thera/thip/cs/PrintRunnableMenu.tfml"/>
+		</menubar>
+
+		<toolbar name="myToolBar" imgwidth="16" imgheight="16">
+			<import file="it/thera/thip/cs/PrintRunnableMenu.tfml"/>
+		</toolbar>
+		<textinput name="ChiaviSelezionati" classAD="ChiaviSelezionati"/>
+
+	</form>
+
+</tfml>

@@ -1,0 +1,19 @@
+<tfml>
+<generator type="form"/>
+  	<form
+  		classHdr="YUdsPalletTerm"
+		name="form"
+    	errorList="no"
+		menubar="no"
+		toolbar="no"
+		submitReset="none"
+		servlet="it.odl.thip.logisticaLight.web.YCreazionePalletFormActionAdapter"
+		jsLibraryName="it/odl/thip/logisticaLight/YCreazionePallet.js"
+		onLoadPresent="yes"
+	>
+		<textinput name="BarcodeScatola" classAD="BarcodeScatola"/>
+		<searchcombobox name="TipoPallet" classRD="TipoPallet"/>  
+		<textinput name="Altezza" classAD="Altezza"/>
+	</form>
+</tfml>
+

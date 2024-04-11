@@ -1,0 +1,3 @@
+
+Elaborazione file comandi W:\PthDev\Projects\Panthera\Odl\conf\db\Estensioni\00005\tddml\DROP_YORD_VEN_RIG.TDDML.
+DROP TABLE THIPPERS.YORD_VEN_RIG
